@@ -84,6 +84,15 @@
             "template": "\uf489 {{ .Name }} </>",
             "type": "shell"
           },
+        {
+          "background": "#565656",
+          "foreground": "#faa029",
+          "leading_diamond": "\ue0b6",
+          "style": "diamond",
+          "template": "\ue7ad {{.Profile}}{{if .Region}}@{{.Region}}{{end}}",
+          "trailing_diamond": "\ue0b4 ",
+          "type": "aws"
+        },
           {
             "background": "#A3BE8C",
             "invert_powerline": true,
